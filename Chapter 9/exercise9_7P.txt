@@ -1,0 +1,28 @@
+*Class:
+Account
+
+*Data fields:
+- id: int
+- balance: double
+- annualInterestRate: double
+- dateCreated: Date
+
+*Constructors and methods:
++ Account()
++getId()
++setId(id: int): void
++getBalance()
++setBalance(balance: double):void
++getannualInterestRate()
++setannualInterestRate(annualInterestRate: double): void
++getDateCreated(): date
++getMonthlyInterestRate(): double
++getMonthlyInterest(): double
++withdraw(amount: double): void
++deposit(amount: double): void
+
+
+
+
+
+

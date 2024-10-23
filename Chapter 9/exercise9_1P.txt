@@ -1,0 +1,12 @@
+-Class: 
+Rectangle
+
+-Data Fields:
+height: double
+width: double
+
+-Constructors and methods:
+Rectangle()
+Rectangle: double width, double height
+getArea()
+getPerimeter()
