@@ -1,0 +1,2 @@
+Yes, the steps that need to be repeated include checking the balance, withdrawing, depositing, and validating user inputs. 
+This ensures that the system continues to run smoothly.
