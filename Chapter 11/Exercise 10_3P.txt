@@ -1,0 +1,21 @@
+Myinteger
+------------------
+- value (value:int)
+------------------
++ getValue(): int
++ isValue(): boolean
++ isOdd() : boolean
++ isPrime: boolean
++ isEven(): boolean
++ isOdd(): boolean
++ isPrime(): boolean
++ static isEven(int): boolean
++ static isOdd(int): boolean
++ static isPrime(int): boolean
++ static isEven(MyInteger): boolean
++ static isOdd(MyInteger): boolean
++ static isPrime(mynteger): boolean
++ equals(int): boolean
++ equals(MyInteger): boolean
++ static parseInt(char[] array): int
++ static parseInt(String): int
