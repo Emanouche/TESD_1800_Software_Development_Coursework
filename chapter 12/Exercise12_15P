@@ -1,0 +1,7 @@
+(Write/read data) Write a program to create a file named Exercise12_15.txt if it does not exist. Write 100 integers created randomly into the file using text I/O. Integers are separated by spaces in the file. Read the data back from the file and display the data in increasing order.
+
+How will you write to the file? How will you read from the file?
+____________________________________________________________________________________________________
+
+First I will need to import the Scanner utility as well as java.io.PrintWriter utility.
+I can make an if condition that if the file already exist, for the program to exit and a message notifying the user that the file already exists. Then we'll use try to create an output file with a for loop to create 100 random integers. I wil also need to create an array list to keep track of the integers. Then I will need to display that data in increasing order. I can read from the file using System.out.print, but I need to figure out how. Probably by turning the list into string. 

@@ -1,0 +1,1 @@
+The error should be triggered if the array index entered by the user exceeds 100. I can tell the program to catch the error if the index goes out of bound. 
