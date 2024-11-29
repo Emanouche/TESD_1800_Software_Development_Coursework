@@ -1,0 +1,26 @@
+-------------------------
+       ClockPane         
+-------------------------
+-hour: int             
+-minute: int           
+-second: int           
+-hourHandVisible: bool 
+-minuteHandVisible: bool
+-secondHandVisible: bool
+-------------------------
++isHourHandVisible(): bool
++setHourHandVisible(bool): void
++isMinuteHandVisible(): bool
++setMinuteHandVisible(bool): void
++isSecondHandVisible(): bool
++setSecondHandVisible(bool): void
++setCurrentTime(): void
++getWidth(): double
++setWidth(double): void
++getHeight(): double
++setHeight(double): void
+-paintClock(): void     
+-------------------------
+
+To make only the hour and minute hands visible, we can set the "secondHandVisible" which uses a 
+boolean value, to "false".
