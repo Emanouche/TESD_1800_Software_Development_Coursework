@@ -1,0 +1,10 @@
+For graphical objects, I will need to make a pane to contain the pentagon and the moving rectangle.
+A polygon to represent the pentagon, and a rectangle to be animated along the pentagon's outline.
+
+I will use a mouse click listener to pause and resume the animation. I will use the left mouse button for the clicks.
+
+To make it follow the outline, I can use PathTransition. I'll define a path using the pentagon's shape,
+then use PathTransition to move the rectangle along this path.
+
+To change the opacity of the rectangle, I can bind the rectangle's opacity to its position along the path.
+I could use the TimeLine class to create a smooth transition that changes the opacity as the rectangle moves.

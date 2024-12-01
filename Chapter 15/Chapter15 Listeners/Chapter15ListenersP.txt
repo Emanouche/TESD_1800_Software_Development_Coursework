@@ -1,0 +1,10 @@
+I'll primarly use the following graphical objects. Pane as a container for the ball, Circle,
+to represent the ball, and buttons or KeyEvent for controlling the movement (up, down, left, and right).
+I think I'll use keyboard keys for those, it would feel more intuitive.
+
+In that case, I need to use KeyEvent listeners to detect arrow key presses.
+
+To prevent the ball from moving out of sight, I can tell the program get the ball's position then check
+the new position. If the new position is valid, move the ball; otherwise, do nothing.
+
+
