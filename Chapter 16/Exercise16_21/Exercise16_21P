@@ -1,0 +1,5 @@
+For graphical Object, I will need to use TexTfield as well as StackPane. For listeners I will need to use a key press listener so that the countdown starts when the enter key is pressed.
+
+I'll need to use a timeline to manage the countdown and to have it update the TextField every second and to implement it, it needs to be configured with a KeyFrame that triggers every second (1000 milliseconds). The run() method should be called every second to decrement the time.
+
+And finally to play the music, I will need a media and the media player. I will need to link the media to a URL for the audio file, create the MediaPlayer object and set the media to play in an indefinite loop.

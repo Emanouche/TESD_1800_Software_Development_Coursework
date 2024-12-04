@@ -1,0 +1,7 @@
+We shall use a label to display the message, an Hbox to contain the movement buttons (left and right), a vbox to contain the color selection radio buttons, of course buttons to move the text left and right. RadioButton for color selection, ToggleGroup to group the radio buttons so only one can be selected at a time, and finally a scene and a stage to set up the JavaFx window.
+
+For listeners, I will neeed button listeners for the left and right buttons to move the message, and RadioButton listeners for the radio buttons to change the color of the message.
+
+To check which button is selected, I will use the getSelectedToggle() method to determine which button is selected.
+
+To change the color of the text, I will use event handlers for the radio buttons and set the color of the label's text based on the selected button.
