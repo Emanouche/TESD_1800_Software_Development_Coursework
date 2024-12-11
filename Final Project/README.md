@@ -14,10 +14,14 @@ libraries for hours in the past not able to just pick something to start.
 
 ## How to Use
 
-To run the app, just you use any Java compiler. While running, it will show a simple to use box with two text entry label, write your game title in those as well
-as the genre. Use the "add game" button to add the game you've entered. Once you are done building a list, click on the "Pick a random game" button. A pop up should
+While running the app, it will show a simple to use box with two text entry label, write your game title in those as well as the genre. Use the "add game" button to add the game you've entered.
+
+![Use the "add game" button to add the game you've entered](screenshot.png)
+
+Once you are done building a list, click on the "Pick a random game" button. A pop up should
 show up telling you what to play next.
 
+![Pop up](screenshot2.png)
 
 ## Code Example
 
